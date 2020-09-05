@@ -19,4 +19,4 @@ def fizz_buzz(n: int):
     return print(resultado)
 
 
-fizz_buzz(1_000_000)
+fizz_buzz(1_000)

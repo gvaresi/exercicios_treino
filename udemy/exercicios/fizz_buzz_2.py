@@ -5,7 +5,7 @@ Para números que são múltiplos de três e cinco imprima "FizzBuzz".
 """
 
 
-for fizz_buzz in range(1, 101):
+for fizz_buzz in range(1, 501):
     if fizz_buzz % 5 == 0 and fizz_buzz % 3 == 0:
         print('FizzBuzz')
     elif fizz_buzz % 5 == 0:

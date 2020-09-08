@@ -8,8 +8,8 @@
 """
 
 
-def unique_list(l):
-    return print(list(set(l)))
+def unique_list(x):
+    return print(list(set(x)))
 
 
 unique_list([1, 1, 1, 1, 2, 2, 3, 3, 3, 3, 4, 5])

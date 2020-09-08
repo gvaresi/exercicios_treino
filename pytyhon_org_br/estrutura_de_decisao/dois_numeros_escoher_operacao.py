@@ -33,7 +33,7 @@ elif operacao == '*':
 elif operacao == '+':
     resultado = num_1 + num_2
 elif operacao == '-':
-    resultado = num_1 - num_2 
+    resultado = num_1 - num_2
 
 if resultado % 2 == 0:
     par_impar = 'par'

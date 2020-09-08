@@ -21,18 +21,18 @@ custo = 0
 tipo = str
 
 combustivel = input("""Informe o combustivel desejado:
-                    A - Álcool ou 
-                    G - Gasolina 
+                    A - Álcool ou
+                    G - Gasolina
                     """)
 while combustivel != 'A' and combustivel != 'G':
     combustivel = input("""Informe o combustivel desejado:
-                    A - Álcool ou 
-                    G - Gasolina 
+                    A - Álcool ou
+                    G - Gasolina
                     """)
 G = 'gasolina'
 A = 'álcool'
 
-                    
+
 litros = float(input('Quantos litros foram abastecidos: '))
 
 if combustivel == 'A':
@@ -41,8 +41,8 @@ if combustivel == 'A':
         custo = litros * (alcool * .97)
     else:
         custo = litros * (alcool * .95)
-    
-    
+
+
 if combustivel == 'G':
     tipo = G
     if litros >= 20:
@@ -50,5 +50,5 @@ if combustivel == 'G':
     else:
         custo = litros * (gasolina * .94)
 
-        
+
 print('O cliente ir pagar R$', '%.2f' % custo, ', por ', int(litros), 'litros de', tipo)

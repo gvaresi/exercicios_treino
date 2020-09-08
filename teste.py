@@ -1,16 +1,13 @@
 # teste
 
 
-
 def imprime_menor(a, b):
     if a < b:
-        print('o menor numero é',a)
+        print('o menor numero é', a)
     elif a > b:
-        print('o menor numero é',b)
+        print('o menor numero é', b)
     else:
         print("Os números são iguais.")
-
-
 
 
 a = int(input('difgite dois numeros '))

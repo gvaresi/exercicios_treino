@@ -28,8 +28,6 @@ salario_reajustado = 0
 percentual = 0
 
 
-
-
 if __name__ == '__main__':
     if salario_base <= 280:
         salario_reajustado = salario_base * 1.2

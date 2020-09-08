@@ -23,11 +23,6 @@ while x != 'n':
         lista_idade_Maior_60.append(idade)
 
 
-
-
-
-
-
 print(lista_idade_0_25)
 print(lista_idade_26_60)
 print(lista_idade_Maior_60)

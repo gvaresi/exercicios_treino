@@ -5,5 +5,5 @@ python:
 install:
   - pip install -q -r requirements-dev.txt
 
-scripts:
+script:
   - flake8

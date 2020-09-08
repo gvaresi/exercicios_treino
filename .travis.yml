@@ -3,7 +3,7 @@ python:
   - 3.8
 
 install:
-  - pip install -q -r requeriments-dev.txt
+  - pip install -q -r requirements-dev.txt
 
 scripts:
   - flake8

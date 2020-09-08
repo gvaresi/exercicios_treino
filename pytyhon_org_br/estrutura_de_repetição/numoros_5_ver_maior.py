@@ -17,6 +17,6 @@ if maior < num_4:
     maior = num_4
 if maior < num_5:
     maior = num_5
-    
+
 print()
 print('O maior numero é ', maior)

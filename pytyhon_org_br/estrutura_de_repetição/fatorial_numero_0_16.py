@@ -10,7 +10,7 @@ e limitando o fatorial a números inteiros positivos e menores que 16.
 numero = int(input("informe o numero para exibir o fatorial dele: "))
 while 0 >= numero or numero > 16:
     numero = int(input("informe o numero para exibir o fatorial dele: "))
-    
+
 numero = 5
 g = 1
 resultado = []
@@ -20,6 +20,6 @@ for f in range(numero, 0, -1):
     resultado.append(f)
 
 
-texto = 'O resultado do fatorial de {0} é {1} = {2}'    
+texto = 'O resultado do fatorial de {0} é {1} = {2}'
 
 print(texto.format(numero, resultado, g))

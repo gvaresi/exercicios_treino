@@ -26,17 +26,17 @@ cupom_fiscal = """           *** Cupom Fiscal ***
 preco_total = float
 escolhido = str
 
-escolha = float(input("""Escolha o tipo da carne que o cliente escolheu: 
+escolha = float(input("""Escolha o tipo da carne que o cliente escolheu:
                       1 - File duplo
                       2 - Alcatra
-                      3 - Picanha:                      
+                      3 - Picanha:
                       """))
-                      
+
 while escolha > 3 or escolha < 1:
-    escolha = float(input("""Escolha o tipo da carne que o cliente escolheu: 
+    escolha = float(input("""Escolha o tipo da carne que o cliente escolheu:
                       1 - file duplo
                       2 - Alcatra
-                      3 - Picanha:                      
+                      3 - Picanha:
                       """))
 
 if escolha == 1:
@@ -50,20 +50,20 @@ elif escolha == 3:
 kilo_carne = float(input('Informe o peso da carne: '))
 while kilo_carne <= 0:
     kilo_carne = float(input('Informe o peso da carne: '))
-                      
-                      
+
+
 cartao = input("""O pagamento vai ser com cartão Tabajara?
                S - Sim
                N - Não:
-               
-               """)                      
+
+               """)
 while 'S' != cartao != 'N':
     cartao = input("""O pagamento vai ser com cartão Tabajara?
                S - Sim
                N - Não:
-               
-               """)       
-                     
+
+               """)
+
 if escolha == 1:
     if kilo_carne >= 5:
         preco_total = kilo_carne * 5.8
@@ -81,7 +81,7 @@ if escolha == 3:
         preco_total = kilo_carne * 7.8
     else:
         preco_total = kilo_carne * 6.9
-            
+
 
 if cartao == 'S':
     desconto = preco_total * .05
@@ -91,7 +91,7 @@ else:
     tipo_pagamento = 'outros'
     desconto = 0
     preco_a_pagar = preco_total
-    
-    
+
+
 print(cupom_fiscal.format(escolhido, kilo_carne, '%.2f' % preco_total, tipo_pagamento,
                           '%.2f' % desconto, '%.2f' % preco_a_pagar))

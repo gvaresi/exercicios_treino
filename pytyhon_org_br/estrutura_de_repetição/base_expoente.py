@@ -14,6 +14,6 @@ resultado = num_1
 
 for e in range(1, num_2):
     resultado *= num_1
-    
+
 
 print(texto.format(num_1, num_2, resultado))

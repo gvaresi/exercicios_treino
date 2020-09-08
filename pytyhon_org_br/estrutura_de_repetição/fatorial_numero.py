@@ -13,6 +13,6 @@ for f in range(numero, 0, -1):
     g *= f
     resultado.append(f)
 
-texto = 'O resultado do fatorial de {0} é {1} = {2}'    
+texto = 'O resultado do fatorial de {0} é {1} = {2}'
 
 print(texto.format(numero, resultado, g))

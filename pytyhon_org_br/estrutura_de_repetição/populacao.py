@@ -13,6 +13,6 @@ while pais_a <= pais_b:
     pais_a *= 1.03
     pais_b *= 1.015
     ano += 1
-    
+
 
 print('Ira demorar,', ano, 'anos')

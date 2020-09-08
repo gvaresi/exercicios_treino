@@ -9,9 +9,9 @@ b = 1
 f = 0
 
 for i in range(1, n+1):
-    
+
     f = a + b
     a = b
     b = f
-    
+
 print('O n-énimo numero de Fibonacci é: ', f)

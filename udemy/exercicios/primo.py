@@ -11,4 +11,5 @@ def primo(num):
         else:
             return print(num, 'é primo')
 
+
 primo(num)

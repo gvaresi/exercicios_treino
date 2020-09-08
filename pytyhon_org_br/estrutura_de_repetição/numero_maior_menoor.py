@@ -21,7 +21,7 @@ numeros.sort()
 soma = numeros[0] + numeros[-1]
 
 texto = """
-            Dado a lista de numeros a seguir    {0} 
+            Dado a lista de numeros a seguir    {0}
             o menor numero é                    {menor}
             o maior numero é                    {maior}
             o resultado sa soma deles é         {1}

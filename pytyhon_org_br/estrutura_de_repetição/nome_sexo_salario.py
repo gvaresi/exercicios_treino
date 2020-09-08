@@ -25,7 +25,7 @@ d = 'Divorciado(a)'
 
 
 nome = input("Digite o seu nome:")
-while len(nome) < 3: 
+while len(nome) < 3:
     nome = input("Digite o seu nome:")
 
 idade = int(input('Digite a sua idade: '))
@@ -36,7 +36,7 @@ while 0 > idade or idade > 150:
 salario = float(input('Informe o salário: '))
 while salario < 0:
     salario = float(input('Informe o salário: '))
-    
+
 sexo = input("""Sexo
              f - Feminino
              m - Masculino
@@ -46,7 +46,7 @@ while sexo != 'f' and sexo != 'm':
                  f - Feminino
                  m - Masculino
                  """)
-                 
+
 est_civil = input(""" Estado Civil
                   s - Solteiro(a)
                   c - Casado(a)
@@ -64,7 +64,7 @@ if sexo == 'f':
     seho = f
 else:
     sexo = m
-    
+
 
 if est_civil == 's':
     est_civil = s

@@ -6,7 +6,7 @@ A saída deve ser conforme o exemplo abaixo:
     5! =  5 . 4 . 3 . 2 . 1 = 120
 """
 
-texto_impressao = """ 
+texto_impressao = """
                     Fatorial de {0}
                     {0}! = {1} =  {2}
 """

@@ -1,4 +1,5 @@
-"""Você deve criar uma classe carro que vai possuir
+"""
+Você deve criar uma classe carro que vai possuir
 dois atributos compostos por outras duas classes:
 
     Motor
@@ -24,6 +25,7 @@ os seguintes atributos:
        S
 
 Exemplo:
+
     >>> # Testando motor
     >>> motor = Motor()
     >>> motor.velocidade
@@ -97,3 +99,62 @@ Exemplo:
 """
 
 
+class Carro:
+    def __init__(self, direcao, motor):
+        self.motor = motor
+        self.direcao = direcao
+
+    def calcular_velocidade(self):
+        return self.motor.velocidade
+
+    def acelerar(self):
+        self.motor.acelerar()
+
+    def frear(self):
+        self.motor.frear()
+
+    def calcular_direcao(self):
+        return self.direcao.valor
+
+    def girar_a_direita(self):
+        self.direcao.virar_a_direita_dct()
+
+    def girar_a_esquerda(self):
+        self.direcao.virar_a_esquerda_dct()
+
+
+NORTE = 'norte'
+SUL = 'sul'
+LESTE = 'leste'
+OESTE = 'oeste'
+
+
+class Direcao:
+    virar_a_direita_dct = {
+        NORTE: LESTE, LESTE: SUL, SUL: OESTE, OESTE: NORTE
+    }
+
+    virar_a_esquerda_dct = {
+        NORTE: OESTE, LESTE: NORTE, SUL: LESTE, OESTE: SUL
+    }
+
+    def __init__(self):
+        self.valor = NORTE
+
+    def girar_a_direita(self):
+        self.valor = self.virar_a_direita_dct[self.valor]
+
+    def girar_a_esquerda(self):
+        self.valor = self.virar_a_esquerda_dct[self.valor]
+
+
+class Motor:
+    def __init__(self):
+        self.velocidade = 0
+
+    def acelerar(self):
+        self.acelerar += 1
+
+    def frear(self):
+        self.frear -= 2
+        self.velocidade = max(0, self.velocidade)

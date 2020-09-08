@@ -11,7 +11,7 @@ nao_primo = 'O numero   {0}     não é primo porque ele é divisivel pelos segu
 
 def numero(n: int):
     for n_1 in range(1, n + 1):
-        
+
         def numero_1(d: int):
             list_num = []
             for d_1 in range(1, d + 1):

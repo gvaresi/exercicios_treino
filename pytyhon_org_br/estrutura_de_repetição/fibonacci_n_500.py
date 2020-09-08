@@ -10,5 +10,5 @@ while f < 2000:
     f = a + b
     a = b
     b = f
-    
+
 print('A sequncia de Fibonacci maior que 500 é: ', f)

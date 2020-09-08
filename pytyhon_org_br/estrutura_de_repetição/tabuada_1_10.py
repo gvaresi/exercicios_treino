@@ -17,6 +17,6 @@ def tabuada(t: int):
         for n in range(1, t + 1):
             result = x * n
             print(x, 'X', n, '=', result)
-                
-       
+
+
 tabuada(10)

@@ -13,4 +13,4 @@ print()
 
 a2 = int(input("Entre com ano atual: "))
 print()
-print(texto.format(nome, idade = a2 - a1 ))
+print(texto.format(nome, idade=a2 - a1))

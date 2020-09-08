@@ -28,6 +28,6 @@ def numero(n: int):
                         div_primo.append(y)
                         if y == num_1:
                             return print(nao_primo.format(num_1, div_primo))
-        
-        
+
+
 numero(num_1)

@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 Created on Wed Aug 12 16:25:50 2020
 
@@ -8,9 +7,9 @@ Created on Wed Aug 12 16:25:50 2020
 x = []
 
 for i in range(0, 31):
-    x += [i] 
+    x += [i]
 print(x)
-    
+
 print()
 print()
 

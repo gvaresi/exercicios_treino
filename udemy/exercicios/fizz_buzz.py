@@ -4,7 +4,9 @@ Para múltiplos de três imprima "Fizz" ao ivés do número, e para os múltiplo
 Para números que são múltiplos de três e cinco imprima "FizzBuzz".
 """
 
-result =[]
+result = []
+
+
 def fizz_buzz(n: int):
     resultado = []
     for i in range(1, n + 1):

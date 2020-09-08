@@ -18,6 +18,6 @@ while num_1 < num_2 - 1:
     print(num_1)
 
 
-print()    
-print()    
+print()
+print()
 print('A soma dos numeros do intervalo é:', soma)

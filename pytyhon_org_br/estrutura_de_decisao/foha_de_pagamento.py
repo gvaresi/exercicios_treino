@@ -29,7 +29,7 @@ relatorio = """
             - INSS ( 10 %)                  : R$ {6}
             FGTS ( 11 %)                    : R$ {7}
             Total dos descontos             : R$ {8}
-            Salário liquido                 : R$ {9} 
+            Salário liquido                 : R$ {9}
 """
 
 valor_hora = float(input('Informe o valor da hora trabalhada :'))

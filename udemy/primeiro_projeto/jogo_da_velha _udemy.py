@@ -20,8 +20,6 @@ def display_board(board):
 display_board([1, 2, 3, 4, 5, 6, 7, 8, 9])
 
 
-
-
 def player_input():
 
     marker = ''
@@ -29,6 +27,6 @@ def player_input():
         marker = input('Player 1: Você quer ser X ou O?').upper()
 
     if marker == 'X':
-        return ('X', 'O')
+        return 'X', 'O'
     else:
-        return ('O', 'X')
+        return 'O', 'X'

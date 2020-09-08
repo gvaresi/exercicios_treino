@@ -19,7 +19,7 @@ if morango <= 5:
     custo_morango = morango * 2.5
 else:
     custo_morango = morango * 2.2
-    
+
 
 if maca <= 5:
     custo_maca = maca * 2.5
@@ -30,5 +30,5 @@ valor_a_pagar = custo_morango + custo_maca
 
 if valor_a_pagar > 25:
     valor_a_pagar *= .9
-    
+
 print('O valor a ser pago por,', morango, 'Kilos de morando e', maca, 'Kilos de maça, é de R$', '%.2f' % valor_a_pagar)

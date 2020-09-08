@@ -21,4 +21,3 @@ for x in range(1, quantidade_turmas + 1):
 
 media_alunos = (sum(lista_alunos)) / quantidade_turmas
 print(texto_final.format(quantidade_turmas, '%.f' % media_alunos))
-

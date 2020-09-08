@@ -28,8 +28,8 @@ sindicato = (salario_bruto * .05)
 salario_liquido = (salario_bruto - (ir + inss + sindicato))
 
 
-""" 
-expressão para mostrar duas casas decimais. print("%.2f" % round(a,2)), 
+"""
+expressão para mostrar duas casas decimais. print("%.2f" % round(a,2)),
 omde 'a' é a variavel e a expressao round serve para aredondar
 """
 
